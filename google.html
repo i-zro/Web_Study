@@ -4,20 +4,49 @@
   GOOGLE
   </title>
   <head>
-    <meta charset="utf-8">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <meta charset="utf-8">
     <style>
-    h1{font-size:100px; text-align:center; text-decoration: none;}
+    h1{font-size:100px; text-align:center; margin-top:200px;}
+    .bottom{position:absolute; left:30%;}
+    .profile{width:40px;height:40px; border-radius:70%;overflow:hidden; display:inline-block;}
+    .temp{position:absolute; right:10%;top:10%}
+    .dropdown-content{
+      display:none;
+      position:absolute:absolute;
+      padding:8px;
+      min-width:160px;
+    }
+    .profile:hover.dropdown-content{display:block}
+    .final_div{position:absolute; bottom:20%; right:40%}
     </style>
-
   </head>
   <body>
-    <a href="http://mail.google.com" style="text-align:left;" target="_blank">Gmail </a>
-    <a href="http://https://www.google.co.kr/imghp?hl=ko&tab=ri&authuser=0&ogbl" target="_blank">이미지</a>
-    <i class="xi-apps"> </i>
-    <a href="http://www.google.com" target="_blank"> <h1> GOOGLE </h1></a>
-    <input type="text" placeholder="Google 검색 또는 URL 입력" size="40px"></input>
-<br>
-    <a href="https://www.google.com/doodles/">I'm feeling lucky</a>
+    <p class="temp"> 
+      <span>
+        <a href="http://mail.google.com" target="_blank";style="text-decoration: none";color:black;font-size:30px;>Gmail </a>
+      <a href="http://https://www.google.co.kr/imghp?hl=ko&tab=ri&authuser=0&ogbl" target="_blank";style="text-decoration: none";color:black;font-size:30px;>이미지</a>  
+    </span>
+      <i class="xi-apps">xi-apps</i>
+      <span  class="profile">
+        <img src="나영.jpg"></img>
+      <div class="dropdown-content">
+        <a href="#">권나영</a>
+        <a href="#">다른 계정 추가</a>
+      </div>
+    </span> 
+  </p>
+   
+    <p><a href="http://www.google.com" target="_blank"; style="text-decoration:none;"> <h1> GOOGLE </h1></a>
+      <div class="bottom"><input type="text" placeholder="Google 검색 또는 URL 입력" style="font-size:50px";></input>
+      </div></p>
+    
+
+    <div class="final_div">
+      <a href="http://drive.google.com">구글 드라이브</a>
+      <a href="http://www.naver.com">네이버</a>
+      <a href="http://www.daum.net">다음</a>
+    </div>
+    
     </body>
 </html>
